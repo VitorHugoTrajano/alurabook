@@ -1,0 +1,87 @@
+.contatos {
+    background: var(--branco);
+    padding: 1em;
+}
+
+.contatos__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contatos__texto {
+    font-weight: 300;
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 1em 0 1.5em 0;
+}
+
+.contatos__email {
+    padding: 1.1em;
+    width: 90%;
+    border: 2px solid var(--azul);
+    border-radius: 24px;
+    color: var(--azul);
+    margin-bottom: 1em;    
+}
+
+.contatos__email::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--azul); 
+    background-image: url("../img/Vector.svg");
+    background-repeat: no-repeat;
+    padding-left: 2em;
+}
+
+@media screen and (min-width: 1024px) {
+    .contatos {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+    }
+
+    .contatos__tablet {
+        margin: 2em 0;
+        width: 40%;
+    }
+
+    .contatos__titulo {
+        font-size: 24px;
+        width: 65%;
+    }
+
+    .contatos__texto {
+        width: 75%;
+    }
+ 
+    .contatos__email {
+         width: 30%;
+    }
+ }
+
+ @media screen and (min-width: 1728px) {
+    .contatos__tablet {
+        width: 25%;
+    }
+
+    .contatos__titulo {
+        width: 100%;
+    }
+
+    .contatos__texto {
+        width: 71%;
+    }
+
+    .contatos__email {
+        width: 17%;
+        padding: 1.2em;
+    }
+ }
+
+
+
