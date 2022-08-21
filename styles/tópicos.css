@@ -48,13 +48,16 @@
     }
 
     .topicos__lista {
+        width: 70%;
         padding: 1em;
+        margin: 0 auto;
     }
 
     .topicos__titulo {
         font-size: 24px;
         font-weight: 300;
         padding: 0.5em;
+        margin-bottom: 0;
     }
 
     .topicos__item {
@@ -63,7 +66,7 @@
 
     .topicos__link {
         font-size: 24px;
-        padding: 1.2em 1.7em;
+        padding: 1em;
     }
 }
 
