@@ -20,6 +20,7 @@
     --cinza-escuro: #474646;
 }
 
+
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
