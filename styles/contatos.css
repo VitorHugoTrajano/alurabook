@@ -1,10 +1,10 @@
 .contatos {
     background: var(--branco);
-    padding: 1em;
+    padding: 1rem;
 }
 
 .contatos__titulo {
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 500;
     background: var(--azul-degrade);
     -webkit-background-clip: text;
@@ -14,15 +14,16 @@
 
 .contatos__texto {
     font-weight: 300;
+    font-size: 0.9rem;
     background: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin: 1em 0 1.5em 0;
+    margin: 1rem 0 1.5rem 0;
 }
 
 .contatos__email {
-    padding: 1.1em;
+    padding: 1.1rem;
     width: 90%;
     border: 2px solid var(--azul);
     border-radius: 24px;
@@ -35,7 +36,7 @@
     color: var(--azul); 
     background-image: url("../img/Vector.svg");
     background-repeat: no-repeat;
-    padding-left: 2em;
+    padding-left: 2rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -46,12 +47,12 @@
     }
 
     .contatos__tablet {
-        margin: 2em 0;
+        margin: 2rem 0;
         width: 40%;
     }
 
     .contatos__titulo {
-        font-size: 24px;
+        font-size: 1.5rem;
         width: 65%;
     }
 
